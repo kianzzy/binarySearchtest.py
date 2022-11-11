@@ -31,7 +31,8 @@ class TestBinarySearch(unittest.TestCase):
 
     def test_case4(self):
             arr = [104, 185, 219, 253, 313, 351, 412, 434, 518, 572, 626, 662, 674, 679, 736, 802, 825, 877, 923, 980]
-            self.assertEqual (binary_search (arr, 104), 2)  # case4  测试数组里存在但输入错误位置，测试程序结果是否正确
+            self.assertEqual (binary_search1 (arr, 104), 2)  # case4  测试数组里存在但输入错误位置，测试程序结果是否正确
+    def test_case5
 
 
 if __name__ == '__main__':
